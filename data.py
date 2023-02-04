@@ -1,4 +1,4 @@
-data = [
+data_imgur = [
     {
         'name': 'Female',
         'link': 'https://i.imgur.com/SwZW2Z3.png',
@@ -110,6 +110,129 @@ data = [
     {
         'name': 'Female',
         'link': 'https://i.imgur.com/GSxedVm.jpg',
+        'ai' : '0'
+    }
+]
+
+
+
+
+
+
+
+
+data = [
+    {
+        'name': 'Female',
+        'link': 'Female1-1.png',
+        'ai' : '1'
+    },
+
+    {
+        'name': 'Male',
+        'link': 'Male1-2.png',
+        'ai' : '1'
+    },
+
+    {
+        'name': 'Other',
+        'link': 'Other1-3.jpg',
+        'ai' : '1'
+    },
+
+    {
+        'name': 'Female',
+        'link': 'Female1-4.jpg',
+        'ai' : '1'
+    },
+
+    {
+        'name': 'Male',
+        'link': 'Male1-5.png',
+        'ai' : '1'
+    },
+
+    {
+        'name': 'Turtle',
+        'link': 'Turtle1-6.png',
+        'ai' : '1'
+    },
+
+    {
+        'name': 'Male',
+        'link': 'Male1-7.jpg',
+        'ai' : '1'
+    },
+
+    {
+        'name': 'Female',
+        'link': 'Female1-8.png',
+        'ai' : '1'
+    },
+
+    {
+        'name': 'Tree',
+        'link': 'Tree1-9.png',
+        'ai' : '1'
+    },
+
+    {
+        'name': 'Photo',
+        'link': 'Photo1-10.png',
+        'ai' : '1'
+    },
+    {
+        'name': 'Female',
+        'link': 'Female0-1.jpg',
+        'ai' : '0'
+    },
+    {
+        'name': 'Female',
+        'link': 'Female0-2.jpg',
+        'ai' : '0'
+    },
+    {
+        'name': 'Female',
+        'link': 'Female0-3.jpg',
+        'ai' : '0'
+    },
+    {
+        'name': 'Female',
+        'link': 'Female0-4.jpg',
+        'ai' : '0'
+    },
+    {
+        'name': 'Female',
+        'link': 'Female0-5.jpg',
+        'ai' : '0'
+    },
+    {
+        'name': 'Male',
+        'link': 'Female0-6.jpg',
+        'ai' : '0'
+    },
+
+    {
+        'name': 'Female',
+        'link': 'Female0-7.jpg',
+        'ai' : '0'
+    },
+
+    {
+        'name': 'Female',
+        'link': 'Female0-8.jpg',
+        'ai' : '0'
+    },
+
+    {
+        'name': 'Female',
+        'link': 'Female0-9.jpg',
+        'ai' : '0'
+    },
+
+    {
+        'name': 'Female',
+        'link': 'Female0-10.jpg',
         'ai' : '0'
     }
 ]

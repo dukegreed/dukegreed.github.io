@@ -12,6 +12,7 @@ from data import data_sources
 from art import logo
 import time
 import datetime
+import climage
 
 
 
@@ -46,7 +47,8 @@ def play_higher_lower():
 
              
             # display account1 name and description
-            print(f"Title: {person1['name']}, Image: {person1['link']}")
+            print(f"Title: {person1['name']}, Image: ")
+            print(climage.convert(person1['link']))
              
             # display current score
             print("------------------------------------")
