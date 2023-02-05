@@ -1,4 +1,4 @@
-data_imgur = [
+data = [
     {
         'name': 'Female',
         'link': 'https://i.imgur.com/SwZW2Z3.png',
@@ -120,8 +120,8 @@ data_imgur = [
 
 
 
-
-data = [
+#tried to render images in python terminal, turns out you can't
+data_files = [
     {
         'name': 'Female',
         'link': 'Female1-1.png',
