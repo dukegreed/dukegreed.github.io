@@ -3,7 +3,7 @@
   <head>
     <script>
       let score = 0;
-      let randomNumber = Math.floor(Math.random() * 19) + 1;
+      let randomNumber = Math.floor(Math.random() * 18) + 1;
       let imageBoolean = Math.floor(randomNumber / 10) === 1;
 
       function checkAnswer(selectedBoolean) {
@@ -24,7 +24,7 @@
   <body>
     <p style="font-size: 2em;">Is this AI or not?</p>
     <div id="game">
-      <img alt="AI image">
+      <img id="image" alt="Ai or not image" src="18.png">
       <br>
       <button onclick="checkAnswer(true)">This is AI</button>
       <button onclick="checkAnswer(false)">This is not AI</button>
