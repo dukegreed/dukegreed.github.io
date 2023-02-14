@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      let score = 0;
+      let randomNumber = Math.floor(Math.random() * 19) + 1;
+      let imageBoolean = Math.floor(randomNumber / 10) === 1;
+
+      function checkAnswer(selectedBoolean) {
+        if (selectedBoolean === imageBoolean) {
+          score++;
+          alert("Correct! Your score is now " + score);
+          randomNumber = Math.floor(Math.random() * 19) + 1;
+          imageBoolean = Math.floor(randomNumber / 10) === 1;
+          document.getElementById("image").src = randomNumber + ".png";
+        } else {
+          alert("Incorrect! Your final score is " + score);
+          document.getElementById("score").innerHTML = "Your final score is " + score;
+          document.getElementById("game").style.display = "none";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <p style="font-size: 2em;">Is this AI or not?</p>
+    <div id="game">
+      <img alt="AI image">
+      <br>
+      <button onclick="checkAnswer(true)">This is AI</button>
+      <button onclick="checkAnswer(false)">This is not AI</button>
+    </div>
+    <p id="score"></p>
+  </body>
+</html>
